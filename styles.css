@@ -112,3 +112,76 @@ header {
     width: 100%;
     border-radius: 10px;
 }
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff7a94;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.button span {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 5px 15px;
+    font-size: 1em;
+}
+
+.twitter {
+    background-color: #ffffff;
+    color: black;
+}
+
+.twitter span {
+    background-color: black;
+    color: white;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+.youtube span {
+    background-color: white;
+    color: red;
+}
+
+.instagram {
+    background-color: #ff6b81;
+}
+
+.facebook {
+    background-color: #1877f2;
+}
+
+.facebook span {
+    background-color: white;
+    color: #1877f2;
+}
