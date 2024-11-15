@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    /* Background gradasi */
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar {
+    background: #1c1e2d;
+    /* Warna latar belakang navigasi */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding-right: 1000px;
+}
+
+.santra-logo {
+    width: 20px;
+    /* Sesuaikan dengan ukuran yang diinginkan */
+    height: auto;
+    margin-left: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    color: #ffffff;
+}
+
+.talent-btn {
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    /* Gradasi tombol */
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(255, 20, 147, 0.3);
+    /* Bayangan untuk tombol */
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    line-height: 1.2;
+    color: #ff69b4;
+    margin-bottom: 1em;
+}
+
+.hero-image img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.talent-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.talent {
+    width: 200px;
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.talent img {
+    width: 100%;
+    border-radius: 10px;
+}
